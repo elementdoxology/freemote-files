@@ -1,35 +1,45 @@
 <link rel="stylesheet" href="DisplayShirt.css">
 
 <html>
+    <head>SimpleGamez</head>
     <body>
-        <div class="box-container">
-            <h1>SimpleGamez</h1>
-            <h2 class=" product-page product-details"></h2>
-            <a>Sign In</a>
+        <div class="product-details">
+            <h1>Pokémon Shirt</h1>
+            <h2></h2>
+            <a>Home</a>
             <a>Story</a>
             <a>World Tour</a>
             <a>Social Accounts</a>
             <a>Display</a>
+            <a>Sign In</a>
         </div>
-        <p class="product-picture"><img src="Pokémon Shirt.JPG"></p>
-        <div class="right-container">
+        <div class="product-page">
+            <img src="Pokémon Shirt.JPG" alt="shirt">
+        </div>
+        <div class="product-page">
             <form>
                 <label>Pokémon Shirt</label>
                 <div>
                     <p>Price $5</p>
-                    <p>Quantity</p>
+                    <p>Size</p>
                     <select name="size" id="size">
                         <option value="S">S</option>
                         <option value="M">M</option>
                         <option value="L">L</option>
                     </select>
+                    <p>Quantity</p>
+                    <select name="qty" id="qty">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
                 </div>
                 <input type="submit" value="ADD TO CART">
+                <div>
+                    <p>Description</p>
+                    <p>Plain Pokémon Shirt</p>
+                </div>
             </form>
-            <div>
-                <p>Description</p>
-                <p>Plain Pokémon Shirt</p>
-            </div>
         </div>
     </body>
 </html>

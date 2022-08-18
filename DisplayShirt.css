@@ -41,13 +41,31 @@ form {
     box-shadow: 0 0 0 0.1rem rgb(106, 116, 116);
 }
 
+.reviews .number {
+    margin-left: 0.5rem;
+}
+
+.size {
+    padding: 0.5rem 6rem 0.5rem;
+}
+
+.quantity {
+    display: inline-block;
+}
+
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+
+}
+
 .box-container {
     background: bottom / url('Pokémon\ Shirt.JPG');
     height: 90%;
-}
-
-.right-container {
-    display: flex-right;
 }
 
 #shirt {
