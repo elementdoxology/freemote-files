@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+a {
+    margin: 1px;
+    padding: 2%;
+    display: inline-block;
+}
+
+body {
+    max-width: 100%;
+    font-family: 'Arial';
+}
+
+.product-page {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product-picture, .product-details {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-details button {
+    padding: 0.9rem 3rem 1.1rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0 0 0 0.1rem rgb(106, 116, 116);
+}
+
+.box-container {
+    background: bottom / url('Pokémon\ Shirt.JPG');
+    height: 90%;
+}
+
+.right-container {
+    display: flex-right;
+}
+
+#shirt {
+    background: no-repeat right top;
+}
